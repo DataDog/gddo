@@ -37,7 +37,7 @@ import (
 	"github.com/golang/gddo/doc"
 	"github.com/golang/gddo/gosrc"
 	"github.com/golang/gddo/httputil"
-	"github.com/golang/gddo/internal/health"
+	"github.com/datadog/gddo/internal/health"
 )
 
 const (
