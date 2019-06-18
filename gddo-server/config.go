@@ -120,7 +120,6 @@ func loadConfig(ctx context.Context, args []string) (*viper.Viper, error) {
 	// Set defaults based on other configs
 	setDefaults(v)
 
-	log.Debug(ctx, "config values loaded", "values", v.AllSettings())
 	return v, nil
 }
 
