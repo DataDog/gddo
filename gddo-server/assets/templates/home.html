@@ -3,8 +3,11 @@
 
 {{define "Body"}}
 <div class="jumbotron">
-    <h2>Search for Go Packages</h2>
-    {{template "SearchBox" ""}}
+    <h2>Bookmarklet</h2>
+<p>
+Drag the following link to your bookmark bar, and click it when you're on a GitHub page to view a package's documentation: 
+<a href="javascript:window.location='https://{{.Host}}/?q='+encodeURIComponent(window.location)">GoDoc</a>.
+
 </div>
 
 <p>GoDoc hosts documentation for <a href="https://golang.org/">Go</a> packages
